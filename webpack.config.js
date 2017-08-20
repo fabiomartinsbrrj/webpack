@@ -16,7 +16,8 @@ module.exports = {
             loader: 'babel-loader',
             exclude : /node_modules/,
             query : {
-                presets : ['es2015']
+                presets : ['es2015'],/*agora consigo usar o es2015 ex: export default class*/
+                plugins : ['transform-object-rest-spread']/*Para o operador spread*/
             }
         }]
     }
