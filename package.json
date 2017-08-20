@@ -1,0 +1,17 @@
+{
+  "name": "exercicios_webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^3.4.1",
+    "webpack-dev-server": "^2.6.1"
+  },
+  "scripts": {
+    "dev" : "webpack-dev-server --progress --colors --inline --hot"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
